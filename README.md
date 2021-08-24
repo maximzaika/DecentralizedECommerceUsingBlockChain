@@ -1,5 +1,9 @@
 # Background Information
 
+## Video Example
+
+https://youtu.be/vDJA6MLTDLs
+
 ## Description
 
 Imitation of DApp (Decentralized Apps) e-commerce system that uses
@@ -25,7 +29,6 @@ the transactions need to be recorded and saved in .xlsx (Excel sheets).
 - The client's request might arrive to any server
 - The database is mirrored on all the servers (i.e. blockchain or the list of transactions)
 - Any server knows the wealth of other servers in the internet
-
 
 # System Architecture 
 ![img.png](system_architecture.png)
