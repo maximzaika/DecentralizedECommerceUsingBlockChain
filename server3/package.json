@@ -1,0 +1,21 @@
+{
+  "name": "server3",
+  "version": "1.0.0",
+  "description": "DApp e-commerce System",
+  "main": "server-2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxim Zaika (26437929) Sanjay Sekar Samuel (25036335)",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "exceljs": "^1.4.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.3",
+    "object-sizeof": "^1.2.0",
+    "protocol-buffers": "^4.0.4",
+    "socket.io": "^1.7.1",
+    "socket.io-client": "^1.7.1"
+  }
+}

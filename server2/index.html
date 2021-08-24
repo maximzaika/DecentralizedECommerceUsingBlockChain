@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DApp e-commerce System Server 2</title>
+    <!--<link rel="stylesheet" href="main.css">-->
+  </head>
+  <script src = "/socket.io/socket.io.js"></script>
+  <script src = "jquery-1.11.1.js"></script>
+  <script src = "client.js"></script>
+  <body>
+
+    <h2>DApp e-commerce System Server 2</h2>
+
+    <form action="/action_page.php">
+      From:<br>
+      <input type="text" class="textbox" id="from" value="">
+      <br>
+
+      To:<br>
+      <input type="text" class="textbox" id="to" value="">
+      <br>
+
+      Amount:<br>
+      <input type="text" class="textbox" id="amount" value="">
+      <br>
+
+      Description:<br>
+      <input type="text" class="textbox" id="description" value="">
+      <br>
+
+      <p id="status">Status:<br>
+    </form>
+    <button type="button" id="submit">Submit</button>
+  </body>
+</html>

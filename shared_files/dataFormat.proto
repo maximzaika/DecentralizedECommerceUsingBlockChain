@@ -1,0 +1,6 @@
+message dataFormat {
+ required string from = 1;
+ required string to = 2;
+ required string description = 3;
+ required float amount = 4;
+}
